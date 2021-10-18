@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="img/icon.jpg">
+        <title>Присоединиться</title>
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/common.css">
+        <script src="js/form_controller.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html">Главная</a>
+            <a href="#">О нас</a>
+            <a href="form.html">Присоединиться!</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div class="content">
+            <form method="post" action="../submit" onsubmit="return onSubmit();">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <label for="name" >Имя: </label>
+                        </td>
+                        <td>
+                            <input name="name" id="name" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="surname">Фамилия: </label>
+                        </td>
+                        <td>
+                            <input name="surname" id="surname" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="age">Возраст: </label>
+                        </td>
+                        <td>
+                            <input name="age" id="age" type="number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="phone">Номер телефона: </label>
+                        </td>
+                        <td>
+                            <input name="phone" id="phone" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Отправить">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <div class="footer">
+            <p>Copyright&copy;, 2021</p>
+        </div>
+    </body>
+</html>

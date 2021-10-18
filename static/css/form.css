@@ -1,0 +1,24 @@
+body {
+    background: black;
+    padding-top: 60px;
+}
+table {
+    margin: auto;
+    padding-top: 200px;
+}
+label, input {
+    vertical-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Main Font", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+input {
+    background: black;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid white;
+}
+

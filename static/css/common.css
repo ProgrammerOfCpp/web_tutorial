@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Main Font";
+    src: url('../font/lemon_milk.ttf');
+}
+body, html {
+    margin: 0;
+}
+a, p {
+    text-decoration: none;
+    color: white;
+    font-family: "Main Font", sans-serif;
+}
+a {
+    padding: 7px 25px;
+    display: inline-block;
+}
+p {
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    font-size: 15px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    background: black;
+}
+.content {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+.header {
+    width: 100%;
+    position: fixed;
+    margin-left: 100px;
+    z-index: 1;
+    background: transparent;
+    padding: 10px;
+    top: 0;
+}

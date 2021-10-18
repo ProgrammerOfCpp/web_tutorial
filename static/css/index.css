@@ -1,0 +1,21 @@
+.bg {
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.title {
+    padding: 16vh;
+    font-size: 30px;
+    margin: auto;
+}
+.opaque_block {
+    padding-top: 100px;
+    height: 83vh;
+    background: rgba(127, 127, 127, 0.5);
+}
+.subtitle {
+    font-size: 20px;
+}
